@@ -1,5 +1,11 @@
 # Documentando sobre o projeto
 
+
+![Tela inicial](/img/Screenshot%202024-05-01%20at%2012-15-35%20Pedido.png)
+
+![Tela resultado](/img/Screenshot%202024-05-01%20at%2012-16-20%20Pedido.png)
+
+### _🔗[Teste o projeto Aqui](https://evypersonal.github.io/projeto-pedido/)_
 <hr>
 
 ## Adicionando pastas 
