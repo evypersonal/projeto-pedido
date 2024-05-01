@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* min-height: 100%; */
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+.oculto{
+    display: none;
+}
+
+.oculto resposta {
+    display: flex;
+
+}
+
+#img2{
+    width: 50vw;
+}
+
+#img1{
+    width: 400px;
+}
+
+div audio{
+    display: none;
+}
+
+#controleDiv{
+    border: 2px solid black;
+    width: 50%;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* padding: 1rem; */
+    margin-bottom: 30px;
+}
+.controle h1{
+    text-align: center;
+    padding: 2rem;
+    font-family: "Dancing Script", cursive;
+}
+.acao-positiva{
+    width: 80px;
+    background-color: rgb(90, 216, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+.acao-negativa{
+    width: 80px;
+    background-color: rgb(211, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    /* margin-top: 50px; */
+}
+
+.resposta h1{
+    margin-bottom: 80px;
+}
+
+#btNao:hover {
+    box-shadow: 2px 2px 2px black;
+    background-color: rgba(211, 50, 50, 0.678);
+    font-weight: 700;
+}
+
+#btSim:hover {
+    box-shadow: 2px 2px 2px black;
+    background-color: rgba(90, 216, 65, 0.678);
+    font-weight: 700;
+}
+
+#btSim:active {
+    color: white;
+}
+
+#btNao:active {
+    color: white;
+}
